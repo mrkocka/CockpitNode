@@ -18,9 +18,7 @@ A CockpitNode egy könnyű bootstrap script, amely Ubuntu Linux szervereket kés
 - Beépített státusz- és hálózati ellenőrzések
 - SSH alapú központi kapcsolódás előkészítése
 - Több szerver központi menedzsmentjének támogatása
-- Hasznos adminisztrációs eszközök telepítése:
-  - `htop`
-  - `mc`
+
 
 ---
 
@@ -68,16 +66,12 @@ A script telepíti:
 - `cockpit-ws`
 - `cockpit-files`
 
-További adminisztrációs eszközök:
-
-- `htop`
-- `mc`
 
 ---
 
 ## ⚙️ Követelmények
 
-- Ubuntu 24.04 LTS
+- Ubuntu 24.04 LTS (ezen teszteltem)
 - Internetkapcsolat
 - sudo/root jogosultság
 
@@ -87,11 +81,7 @@ További adminisztrációs eszközök:
 
 Script létrehozása:
 
-```bash
-nano cockpitnode.sh
-```
-
-Futtathatóvá tétel:
+A letöltött script futtathatóvá tétel:
 
 ```bash
 chmod +x cockpitnode.sh
@@ -135,6 +125,14 @@ A CockpitNode tartalmazza a `cockpit-files` komponenst, amely lehetővé teszi:
 
 ---
 
+### CockpitNode Futás közben
+
+![CockpitNode indulást követően ](screenshots/start.png)
+
+![CockpitNode telepítés végeztével ](screenshots/list.png)
+
+
+
 ## 🧠 Filozófia
 
 A CockpitNode nem csupán egy telepítő script.
@@ -158,6 +156,9 @@ A projekt célja egy egyszerű, könnyen bővíthető infrastruktúra provisioni
 ## 📄 Licenc
 
 MIT License
+A script szabadon használható, terjeszthető és módosítható.  
+
+Ha hasznosnak találod a projektet, és közben megemlékezel rólam vagy küldesz egy rövid visszajelzést, az számomra hatalmas motivációt jelent. 🙂
 
 ---
 

@@ -1,10 +1,10 @@
-# CockpitNode
 
-A CockpitNode egy automatizált bootstrap script, amely Linux szervereket készít elő központi Cockpit alapú menedzsmentre, SSH-kulcsos kapcsolattal és beépített webes fájlkezeléssel.
 
 # CockpitNode
 
 A CockpitNode egy könnyű bootstrap script, amely Ubuntu Linux szervereket készít elő központi Cockpit alapú menedzsmentre SSH-kulcsos hitelesítéssel és beépített webes fájlkezeléssel.
+
+> ⚠️ A projektben található script ingyenesen használható és szabadon módosítható. A futtatás során esetlegesen fellépő hibákért, rendszerproblémákért vagy adatvesztésért azonban a készítő nem vállal felelősséget. A script használata minden esetben saját felelősségre történik.
 
 ---
 

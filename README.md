@@ -47,7 +47,7 @@ Ajánlott infrastruktúra:
 Internet
    │
    ▼
-SSH (22 / 4242)
+SSH (22 / vagy más port)
    │
    ▼
 Master Cockpit Server
@@ -154,17 +154,6 @@ A projekt célja egy egyszerű, könnyen bővíthető infrastruktúra provisioni
 
 ---
 
-## 🔥 Jövőbeli tervek
-
-- Docker telepítés
-- Node.js + PM2 provisioning
-- Fail2Ban integráció
-- UFW hardening
-- Monitoring agent telepítés
-- Backup automatizálás
-- Több node-os deployment
-
----
 
 ## 📄 Licenc
 
